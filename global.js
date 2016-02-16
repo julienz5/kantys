@@ -12,6 +12,14 @@ console.log("hello")
  	return false;
  	});
 
+
+
+    
+ //.........................................................................POPOVER
+
+    $('[data-toggle="popover"]').popover(); 
+
+
  //.........................................................................Back to Top
 
 if ($('#backtotop').length) {
@@ -47,10 +55,6 @@ if ($('#backtotop').length) {
             console.log("hello2");
             }
         });
-
- //.........................................................................POPOVER
-
-    $('[data-toggle="popover"]').popover(); 
 
 
 
