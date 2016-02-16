@@ -1,0 +1,279 @@
+
+/*BANNER*/
+#slogan{
+    color: #1E4871;
+    font-size: 23px;
+    margin-top: 17px;
+}
+
+/*NAVBAR*/
+#bienvenue{
+	color: white
+}
+
+#bs-example-navbar-collapse-1 ul li a:hover{
+color: #D1D2D4;
+}
+
+#listenav {
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+/*Bootstrap Override*/
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+.navbar-default {
+    background-color: #1E4871;
+}
+
+
+/*....................................GENERAL*/
+#container1{
+	background-color: #F8F8F8;
+}
+
+#container2{
+	background-color: white;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.poles{
+    margin-top: 30px;
+    color: #1E4871;
+    font-size: 20px;
+    font-weight: bold;
+}
+.poles a{
+color: #1E4871;
+margin-left: 9px;
+}
+
+.poles .fa {
+    font-size: 10px;
+    margin-left: 5px;
+    color: #D1D2D4;
+}
+
+#imgaccueil{
+    margin-top: 30px;
+}
+
+
+/*Bootstrap Override*/
+.container-fluid {
+     padding-right: 0px; 
+     padding-left: 0px;
+    }
+
+
+/*TITRES-POLICES*/
+h1{
+    color: #1E4871;
+    font-size: 32px;
+    margin-left: 10px;
+    font-family: "Roboto";
+}
+h2{
+    color: #517CA6;
+    font-size: 25px;
+    margin-left: 10px;
+    font-family: "Roboto";
+}
+
+p{
+    margin: 10px;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+/*..................NEWSBOX*/
+.newsbox {
+margin-top: 28px;
+background-color: #F7F7F7;
+}
+.panel-heading{
+    background-color: #1E4871 !important;
+    color: white !important;
+}
+.panel-footer{
+    background-color: #1E4871;
+}
+
+.glyphicon
+{
+    margin-right:4px !important; /*override*/
+}
+
+.pagination .glyphicon
+{
+    margin-right:0px !important; /*override*/
+}
+
+.pagination a
+{
+    color:#555;
+}
+
+.panel ul
+{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+.news-item
+{
+    padding:4px 4px;
+    margin:0px;
+    border-bottom:1px dotted #555; 
+}
+
+
+
+
+/* ................... Custom listes ................................ */
+
+.subtitle {
+  margin: 1em 0 1em 0;
+}
+
+.fancy2 {
+  padding-left: 90px;
+}
+.fancy2 span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy2 span:before{
+  content: "";
+  position: absolute;
+  height: 12px;
+  border-bottom: 1px solid black;
+  border-top: 0px solid black;
+  top: 0;
+  width: 60px;
+}
+
+.fancy2 span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy2 span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+
+/*..............................CONTACT*/
+
+#map-container {
+    float: right;
+    margin: 20px;
+    height: 300px;
+    width: 480px;
+}
+
+@media (max-width: 700px){
+#map-container {
+width: 350px;
+float: left;
+}
+}
+
+#suiveznous .fa{
+font-size: 40px;
+margin: 7px;
+color: #1E4871;
+}
+
+@media (min-width: 1200px){
+.divider-vertical {
+height: 370px;
+width: 3px;
+border-left: 1px solid rgba(127, 135, 142, 0.25);
+border-right: 1px solid #ffffff;
+}
+}
+/*----------------------------BACK TO TOP*/
+
+#backtotop.show {
+    opacity: 1;
+    font-size: 22px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 35px;
+    background: #1E4871;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+}
+
+.show {
+    display: block!important;
+}
+
+
+
+
+/*..............................footer*/
+footer{
+	height: 200px;
+	background-color: #39424a;
+	margin-top: 40px;
+}
+
+
+footer a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:active{
+    text-decoration: none;
+    color: white;
+}
+
+#socialbuttons{
+    text-align: center;
+    padding-top: 77.5px;
+}
+#socialbuttons i{
+    margin: 0px 5px;
+}
+
+#socialbuttons .fa{
+    font-size: 45px;
+    color: #D8D9DB;
+}
+#socialbuttons .fa:hover{
+    color: white;
+}
+
+#mentions{
+	margin: 20px;
+	margin-bottom: 0px;
+    color: #D8D9DB;
+}
+#mentions:hover {
+    color: white;
+}
+#mentionslegales{
+	margin: inherit;
+}
