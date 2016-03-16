@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-console.log("hello")
+
 
   //.........................................................................Smooth Scroll
 
@@ -55,6 +55,11 @@ if ($('#backtotop').length) {
             console.log("hello2");
             }
         });
+
+
+jQuery(function($) {
+$('.slider').sss();
+});
 
 
 
